@@ -1,0 +1,350 @@
+html {
+  background: #ccc;
+  font-size: 16px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+@media (max-width: 1800px) {
+  .content {
+    left: -12vw;
+  }
+  .video {
+    left: 0px;
+  }
+  .slides {
+    left: 0px;
+  }
+}
+a:link {
+  color: #f6f7f8;
+  text-decoration: none;
+}
+a:visited {
+  color: #f6f7f8;
+  text-decoration: none;
+}
+a:hover {
+  color: #f6f7f8;
+  text-decoration: none;
+}
+.header {
+  position: relative;
+  z-index: 4;
+  width: 100%;
+  height: 30px;
+  background: #f6f7f8;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.content {
+  width: 1920px;
+}
+.content_wrap {
+  width: 1920px;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+.hide {
+  display: none;
+}
+.scrollhide {
+  position: fixed;
+  left: 50%;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  transform: translate(-50%);
+  transition: all 0.3s;
+}
+.titlelogo {
+  text-align: center;
+}
+.subheader {
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+  height: 50px;
+  top: 0px;
+  background: #f6f7f8d0;
+}
+.subtitle {
+  text-align: center;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buyitnow {
+  display: flex;
+  justify-content: right;
+  margin: -21px 3% 0px 0px;
+}
+.buyitnowtext {
+  height: 30px;
+  width: 150px;
+  border-radius: 8px;
+  color: #f6f7f8;
+  background: #00a8e2;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.video {
+  position: relative;
+  z-index: 2;
+  width: 100vw;
+  max-width: 1920px;
+  height: 100vh;
+  max-height: 1080px;
+  background-color: #00a8e2;
+}
+.product {
+  position: relative;
+  z-index: 2;
+  width: 1920px;
+  height: 1600px;
+  margin-top: -235px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1919.989' height='1587.327' viewBox='0 0 1919.989 1587.327'%3E%3Cpath id='합치기_1' data-name='합치기 1' d='M0-208.325V-1314.347L1919.989-1543V44.328Z' transform='translate(0 1543)' fill='%2300a8e2'/%3E%3C/svg%3E%0A");
+  background-size: cover;
+}
+.productpic {
+  position: absolute;
+  margin: 400px 0 0 2050px;
+}
+.producttexts {
+  position: absolute;
+  margin-top: 650px;
+  margin-left: 300px;
+  color: #f6f7f8;
+}
+.productcat {
+  height: 40px;
+  width: 180px;
+  border-radius: 8px;
+  background: #f6f7f8;
+  color: #00a8e2;
+  text-align: center;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-left: 3px;
+}
+.productname {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+.productprice {
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+.productbin {
+  color: black;
+  font-size: 22px;
+  margin-bottom: 15px;
+  margin-left: 3px;
+}
+.productspec {
+  font-size: 20px;
+  margin-left: 4px;
+}
+.eyecatchspace {
+  position: relative;
+  z-index: 2;
+  height: 1500px;
+  background-color: #ffffff00;
+}
+.eyecatch {
+  position: fixed;
+  z-index: 1;
+  width: 1920px;
+  height: 1800px;
+  margin-top: -4000px;
+  background-image: url(../images/bg_eyecatch.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #f6f7f8;
+}
+.ecpic_wrap {
+  display: inline-block;
+}
+.ecpic1 {
+  position: absolute;
+  margin: 330px 0 0 1100px;
+}
+.ecpic2 {
+  position: absolute;
+  margin: 330px 0 0 1350px;
+}
+.ecpic3 {
+  position: absolute;
+  margin: 330px 0 0 1570px;
+}
+.ectitle {
+  position: absolute;
+  margin: 390px 0 0 205px;
+  font-size: 100px;
+}
+.ectexts {
+  position: absolute;
+  margin: 520px 0 0 210px;
+  width: 800px;
+  font-size: 21px;
+  line-height: 1.3em;
+}
+.points {
+  position: relative;
+  z-index: 2;
+  width: 1920px;
+  height: 2600px;
+  margin-top: 200px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1920' height='2888' viewBox='0 0 1920 2888'%3E%3Cg id='그룹_1' data-name='그룹 1' transform='translate(0 -3804)'%3E%3Cpath id='합치기_3' data-name='합치기 3' d='M0,1152V-928.348L1919.989-1181v937H1920V1152Z' transform='translate(0 4985)' fill='%23ccc'/%3E%3Cpath id='합치기_2' data-name='합치기 2' d='M0,72V-879.348L1919.989-1181v904H1920V72Z' transform='translate(0 6620)' fill='%2300a8e2'/%3E%3C/g%3E%3C/svg%3E%0A");
+  background-size: cover;
+}
+.subcontent {
+  padding-top: 450px;
+}
+.wireless {
+  margin-left: 200px;
+  color: #000;
+}
+.wirelesspc {
+  position: absolute;
+  margin: -200px 0 0 900px;
+}
+.wirelessst {
+  font-size: 35px;
+  margin-left: 25px;
+  margin-bottom: 15px;
+}
+.wirelesstl {
+  font-size: 120px;
+  margin-left: 18px;
+  margin-bottom: 20px;
+}
+.wirelesstx {
+  margin-left: 23px;
+  width: 850px;
+  font-size: 23px;
+  line-height: 1.5em;
+}
+.sensor {
+  margin-left: 200px;
+  color: #000;
+}
+.sensorpc {
+  position: absolute;
+  margin: -130px 0 0 900px;
+}
+.sensorst {
+  font-size: 35px;
+  margin-left: 25px;
+  margin-bottom: 15px;
+}
+.sensortl {
+  font-size: 120px;
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+.sensortx {
+  margin-left: 23px;
+  width: 850px;
+  font-size: 23px;
+  line-height: 1.5em;
+}
+.lightness {
+  margin-left: 200px;
+  color: #f6f7f8;
+}
+.lightpc {
+  position: absolute;
+  margin: -190px 0 0 830px;
+}
+.lightst {
+  font-size: 35px;
+  margin-left: 25px;
+  margin-bottom: 15px;
+}
+.lighttl {
+  font-size: 120px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+.lighttx {
+  margin-left: 23px;
+  width: 850px;
+  font-size: 23px;
+  line-height: 1.5em;
+}
+.slides {
+  position: relative;
+  z-index: 2;
+  width: 100vw;
+  max-width: 1920px;
+  height: 100vh;
+  max-height: 1080px;
+  background-color: #ccc;
+}
+div.slick {
+  width: 100vw;
+  max-width: 1920px;
+}
+div.slick img {
+  height: 100vh;
+  max-height: 1080px;
+}
+.specs {
+  position: relative;
+  z-index: 2;
+  width: 1920px;
+  height: 1450px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1920' height='1464' viewBox='0 0 1920 1464'%3E%3Crect id='사각형_3' data-name='사각형 3' width='1920' height='1464' fill='%23fff'/%3E%3Crect id='사각형_7' data-name='사각형 7' width='1920' height='810' transform='translate(0 654)' fill='%23bbb'/%3E%3C/svg%3E%0A");
+}
+.specstl {
+  padding-top: 50px;
+  font-size: 40px;
+  text-align: center;
+}
+.specspc {
+  margin-left: -700px;
+  margin-top: 60px;
+}
+.specspack {
+  font-size: 30px;
+  text-align: left;
+  margin-left: 1050px;
+  margin-top: -440px;
+}
+.specspacktx {
+  font-size: 22px;
+  text-align: left;
+  margin-left: 1055px;
+  margin-top: 40px;
+  line-height: 1.8em;
+}
+.detailspecs {
+  font-size: 22px;
+  line-height: 1.5em;
+  display: inline-flex;
+  width: 1800px;
+  margin: 250px 0 0 400px;
+  color: #f6f7f8;
+}
+.specsdetail {
+  margin-left: 30px;
+}
+.specsdetail b {
+  font-size: 25px;
+  line-height: 1.8em;
+}
+footer {
+  position: relative;
+  z-index: 2;
+  align-items: center;
+  text-align: center;
+  margin-top: -40px;
+}
